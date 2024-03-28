@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Webdev\CrudApi\Api\CrudInterface" type="Webdev\CrudApi\Model\Crud"/>
+    <preference for="Webdev\CrudApi\Api\Data\DataInterface" type="Webdev\CrudApi\Model\Response\DataResponse"/>
+</config>
